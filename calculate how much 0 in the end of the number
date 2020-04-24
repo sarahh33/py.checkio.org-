@@ -1,6 +1,6 @@
 import re #regular expression
 def end_zeros(num: int) -> int:
-    x = re.findall(r'0+\b', str(num))
+    x = re.findall(r'0+\b', str(num)) #findall(string[, pos[, endpos]]), '\b'Matches the empty string
     return 0 if len(x) == 0 else len(x[0])
 
 
