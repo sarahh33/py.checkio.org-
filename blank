@@ -1,0 +1,2 @@
+空str： if a == ''
+空list： if alist == []
