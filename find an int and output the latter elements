@@ -13,7 +13,12 @@ def remove_all_before(items: list, border: int) -> Iterable:
             else: i = i+1
         return new
     else: return items
-
+#method 2 
+#def remove_all_before(items: list, border: int) -> Iterable:
+    #if border in items:
+     #return items[items.index(border):len(items)] #items.index找到元素对应的位置
+    #else:
+        #return items
 
 if __name__ == '__main__':
     print("Example:")
